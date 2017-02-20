@@ -1,0 +1,45 @@
+doctype html
+html
+  title W3.CSS Template
+  meta(charset='UTF-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  link(rel='stylesheet', href='https://www.w3schools.com/lib/w3.css')
+  style.
+    body {font-family: "Times New Roman", Georgia, Serif;}
+    h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    }
+  body
+    // Navbar (sit on top)
+    .w3-top
+      .w3-navbar.w3-white.w3-wide.w3-padding-8.w3-card-2
+        a.w3-bar-item.w3-button.w3-margin-left(href='#home') ShaadiWorks.com
+        // Right-sided navbar links. Hide them on small screens
+        .w3-right.w3-hide-small
+          a.w3-bar-item.w3-button(href='#about') About
+          a.w3-bar-item.w3-button(href='#prev') Previous Work
+          a.w3-bar-item.w3-button.w3-margin-right(href='#contact') Contact
+    // Header
+    header#home.w3-display-container.w3-content.w3-wide(style='max-width:1600px;min-width:500px')
+      img.w3-image(src='/images/cover.jpg', alt='Hamburger Catering', width='1600', height='800')
+      .w3-display-bottomleft.w3-padding-xlarge.w3-opacity
+        h1.w3-xxlarge Le Catering
+    // Page content
+    .w3-content(style='max-width:1100px')
+      // About Section
+      #about.w3-row.w3-padding-64
+        .w3-col.m6.w3-padding-large.w3-hide-small
+          img.w3-round.w3-image.w3-opacity-min(src='/images/flower2.jpg', alt='Table Setting', width='600', height='750')
+        .w3-col.m6.w3-padding-large
+          h1.w3-center About ShaadiWorks.com
+          br
+          h5.w3-center In business since 1995
+          p.w3-large
+            | The floral decoration business was founded in 1995 by Pankaj. Since then Pankaj has had the pleasure of decorating hundreds of weddings, anniversaries and other life events. Pankaj is a reliable businessman and leaves only with happy customers.
+      hr
+    // Footer
+    footer.w3-center.w3-light-grey.w3-padding-32
+      p
+        | Powered by
+        a.w3-hover-text-green(title='Tanmay Works', target='_blank')  Tanmay Works
